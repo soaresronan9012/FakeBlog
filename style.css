@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#styleblog{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-left:20px;
+    gap: 30px;
+    padding: 10px;
+}
+
+h1{
+    margin:20px;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+leged {
+    margin-top: 2px;
+}
+
+legend {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#title {
+    width:280px ;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#corpBlog {
+    resize: none;
+    width: 280px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#btn {
+    border-radius: 5px;
+    width: 70px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formBlog {
+    padding: 10px;
+    width: 350px;
+    height:218px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(194, 183, 168);
+    border: none;
+
+}
+
+.bodyBlog{
+    width:350px ;
+    font-size: 15px;
+}
